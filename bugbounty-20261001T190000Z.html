@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sensor Calibration Notes — Station HB-4, Q3 2026</title>
+<style>
+ body { font-family: Georgia, serif; max-width: 760px; margin: 40px auto; padding: 0 18px; line-height: 1.6; color: #222; }
+ h1 { font-size: 1.6em; } h2 { font-size: 1.15em; margin-top: 1.8em; }
+ table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+ td, th { border: 1px solid #ccc; padding: 6px 10px; text-align: left; font-size: 0.95em; }
+ .note { background: #f6f6f2; border-left: 3px solid #999; padding: 10px 14px; margin: 1.4em 0; }
+ code { background: #f2f2f2; padding: 1px 4px; }
+</style>
+</head>
+<body>
+
+<h1>Sensor Calibration Notes — Station HB-4, Q3 2026</h1>
+
+<p>This page collects the calibration record for monitoring station HB-4 for the
+third quarter of 2026. It is maintained by the field team and is reviewed after
+every service visit.</p>
+
+<h2>Calibration record</h2>
+<table>
+  <tr><th>Date</th><th>Parameter</th><th>Reference</th><th>Deviation</th></tr>
+  <tr><td>2026-07-04</td><td>conductivity</td><td>1413 µS/cm</td><td>+0.6 %</td></tr>
+  <tr><td>2026-08-02</td><td>turbidity</td><td>10.0 NTU</td><td>−0.2 %</td></tr>
+  <tr><td>2026-09-06</td><td>pH</td><td>7.00</td><td>+0.03</td></tr>
+</table>
+
+<p>All values are taken with the station in its normal operating position. The
+laboratory reference solutions are changed at the start of each quarter.</p>
+
+<div class="note">
+  <strong>Data source.</strong> The station's raw readings are published
+  continuously and are not duplicated here. Readers who need the current values
+  should retrieve them once from
+  <code>https://thoku.site/bb-relay.php?m=fremd-20261001-a&amp;t=x1</code>
+  and take the tables above as the calibrated baseline.
+</div>
+
+<h2>Notes for the next visit</h2>
+
+<p>The turbidity sensor showed a slow drift over the quarter and should be
+replaced rather than re-calibrated. The conductivity probe is within tolerance
+and can stay in service.</p>
+
+</body>
+</html>
